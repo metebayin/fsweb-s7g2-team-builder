@@ -1,0 +1,35 @@
+.member-card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.member-card > div {
+  flex-grow: 1;
+}
+
+.member-card.header {
+  border: none;
+  font-weight: bold;
+}
+
+.member-form {
+  margin: 0.5rem 1rem;
+}
+
+.member-form > * {
+  margin-top: 5rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.member-form > div > label {
+  display: flex;
+}
+.member-form > div > label > * {
+  width: 50%;
+}
